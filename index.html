@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yared hilft – Garten & Alltag</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7f2;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      background: white;
+      color: #2e7d32;
+      padding: 13px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 45px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card .emoji {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      background: #e8f5e9;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .contact {
+      text-align: center;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+    }
+
+    .contact a {
+      color: #2e7d32;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌱 Yared hilft</h1>
+    <p>Gartenarbeit & kleine Hilfe im Alltag</p>
+    <a class="button" href="#kontakt">Kontakt aufnehmen</a>
+  </header>
+
+  <section>
+    <h2>Meine Hilfe</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <div class="emoji">🌱</div>
+        <h3>Gartenarbeit</h3>
+        <p>Rasen mähen, Unkraut jäten und kleine Arbeiten im Garten.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🍂</div>
+        <h3>Garten aufräumen</h3>
+        <p>Laub zusammenkehren und Gartenbereiche ordentlich machen.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🧹</div>
+        <h3>Kleine Putzarbeiten</h3>
+        <p>Staubsaugen, Kehren und kleine Aufräumarbeiten.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">📦</div>
+        <h3>Weitere kleine Aufgaben</h3>
+        <p>Du hast eine andere kleine Aufgabe? Frag einfach nach.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>💰 Preise</h2>
+
+    <div class="price">
+      <p><strong>Faire Preise</strong></p>
+      <p>Der Preis hängt von der Aufgabe und dem Zeitaufwand ab.</p>
+      <p>Vor Beginn wird der Preis gemeinsam vereinbart.</p>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>📞 Kontakt</h2>
+
+    <div class="contact">
+      <p>Du möchtest Hilfe?</p>
+      <p>Schreib mir und erzähl mir kurz, was gemacht werden soll.</p>
+
+      <br>
+
+      <!-- HIER deine E-Mail-Adresse einsetzen -->
+      <p>
+        E-Mail:
+        <a href="mailto:DEINE-EMAIL@BEISPIEL.CH">
+          DEINE-EMAIL@BEISPIEL.CH
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Yared hilft</p>
+  </footer>
+
+</body>
+</html>
